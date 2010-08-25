@@ -1,0 +1,87 @@
+﻿/** * Structural Components */* {	outline: none;}body {	background: #F5F5F5;	padding: 0 0 10px 0;	width: 100%;	min-width: 760px;	line-height: 135%;	color: #666;	margin: 0 auto 0 auto;	font-family: verdana, tahoma, arial, sans-serif;	font-size: 13px;}#footer {	text-align: center;}img.bookcover { width: 100px; height: 125px; padding: 4px; background-color: #fff; margin-bottom: 4px; } img.sidebaricon { width: 50px; padding: 4px; margin-bottom: 4px; } .thumbnail { float: left; width: 120px; height:195px; margin: 0px 2px 0px 2px; }.collection-container { width: 95%; text-align: center; margin-left: 30px; }.navigation-books { position: absolute; top: 250px; left: 40px; width:50px; }
+.booktitle { line-height: 13px; font-size: 11px; } 
+
+a {
+	outline: none;    color: #666;
+}
+
+a:active {
+	outline: none;
+}
+
+#sideBar h2{
+	color:#FFFFFF;
+	font-size:110%;
+	font-family:arial;
+	margin:10px 10px 10px 10px;
+	font-weight:bold !important;
+}
+
+#sideBar h2 span{
+	font-size:125%;
+	font-weight:normal !important;
+}
+
+#sideBar ul{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+#sideBar li{
+	margin:0px 10px 3px 10px;
+	padding:2px;
+	list-style-type:none;
+	display:block;
+	background-color:#000;
+	width:177px;
+	color:#FFFFFF;
+}
+
+#sideBar li a{
+	width:100%;
+}
+
+#sideBar li a:link,
+#sideBar li a:visited{
+	color:#FFFFFF;
+	font-family:verdana;
+	font-size:100%;
+	text-decoration:none;
+	display:block;
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	width:100%;
+}
+
+#sideBar li a:hover{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+
+#sideBar{
+	position: fixed;
+	top: 0px;
+	right:0px;
+	background-color: #000;   
+text-align:left;
+}
+
+#sideBarTab{
+	float:left;
+	height:137px;
+	width:28px;
+}
+
+#sideBarTab img{
+	border:0px solid #FFFFFF;
+}
+
+#sideBarContents{
+	float:left;
+	overflow:hidden !important;
+	width:240px;	height:550px;
+}
+
+#sideBarContentsInner{
+	width:200px;
+}/** * Images */img {	vertical-align: middle;	border: none;}.maincategory { font-weight: bold;  text-transform: uppercase; color: #000; }
