@@ -1,3 +1,13 @@
-I added a line
+Greetings!
 
-hello
+genCollectionInterface (gCI) is a set of templates and HTML generation tools written in Python which produce a web browser-based interface to a book collection. These tools were created during the summer and fall of 2009 as part of the Rural Design Collective's Summer Mentoring Program.
+
+Documentation for this project lives at:
+
+http://www.ruraldesigncollective.org/lab/docs/
+
+See also:
+
+http://en.flossmanuals.net/e-book-enlightenment/ch027_gen-collection-interface-gci/
+
+Thank you!
