@@ -69,7 +69,7 @@ def buildInterfaceElement(outfile,m):
 	else:
 		# 3. link to already downloaded content on attached storage
 	
-		divstr = re.sub('\$iaclid',"file:///media/LIB/djvu/"  + m[4] + ".djvu",divstr)
+		divstr = re.sub('\$iaclid',"djvu/"  + m[4] + ".djvu",divstr)
 
 	#replace title
 
@@ -121,7 +121,7 @@ def getCoverUrl(name):
 	if attStorage == 0:
 		return "http://covers.openlibrary.org/b/OLID/" + name + "-M.jpg"
 	else:
-		return "file:///media/LIB/covers/" + name + ".jpg"
+		return "covers/" + name + ".jpg"
 
 	
 # MAIN
