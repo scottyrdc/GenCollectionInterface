@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # Copyright(c)2008 Internet Archive. Software license GPL version 3.
  
 # modified from the IACL bulk download example script by RSA 11/09
